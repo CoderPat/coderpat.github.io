@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <div class="row">
-      <div class="large-12 large-centered columns">
+  <div class="row">
+    <div class="large-12 large-centered columns">
 
-        <header class="masthead">
-          <img src="https://avatars2.githubusercontent.com/u/11250483?s=400&u=b76e2e297d3526054c945535500231d6bff94293&v=4" alt="Jami Gibbs">
-        </header>
+      <header class="masthead">
+        <img src="https://avatars2.githubusercontent.com/u/11250483?s=400&u=b76e2e297d3526054c945535500231d6bff94293&v=4"
+          alt="Jami Gibbs">
+      </header>
 
     </div>
   </div>
 
   <div class="row">
 
-    <div class="large-6 large-offset-3 columns">
+    <div class="large-8 large-offset-1 columns">
 
       <div class="content-section">
 
         <p>
-        Hello! I’m Patrick. I’m currently an AI Resident at Microsoft Research Cambridge with an interest in Machine Learning.
+          Hello! I’m Patrick.
+
         </p>
+        <p>
+          I’m currently an AI Resident at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft
+            Research Cambridge</a> with an interest in Machine
+          Learning.
+          I'm especially interested learning with structured data, machine learning for source code and general
+          representation learning.
+        </p>
+
+        <p>
+          I graduated with an MPhil in Advanced Computer Science from the <a href="https://www.cst.cam.ac.uk/admissions/acs">University
+            of Cambridge</a> and previously I did
+          a BSc in Information Systems and Computer Engineering at <a href="https://fenix.tecnico.ulisboa.pt/cursos/leic-a">Instituto
+            Superior Tecnico</a>.
+        </p>
+
+        <p>
+          I also interned with the <a href="https://www.microsoft.com/en-us/research/project/program/">Deep Program
+            Understanding group</a> at Microsoft Research Cambridge, the static code
+          analysis company <a href="https://www.codacy.com/">Codacy</a> and with the
+          Spoken Language Systems Lab at <a href="https://www.l2f.inesc-id.pt/wiki/index.php/Welcome_to_the_Spoken_Language_Systems_Lab">INESC-ID</a>.
+        </p>
+
 
       </div>
 
-<!--
+      <main>
+        <h3>Publications</h3>
+        {% for pub in site.data.publications %}
+        <p>
+          <strong>{{ pub.title }}</strong> <br />
+          {{pub.authors}} <br />
+          <i>{{pub.publisher}}</i><a href="{{pub.link}}"> <i class=" fa fa-file-pdf fa-fw"></i></a>
+        </p>
+        {% endfor %}
+      </main>
+
+
+      <!--
   Uncomment this section to add blog posts from _posts
   folder to home page
 
@@ -42,41 +78,42 @@
   </main>
 -->
 
+
       <footer>
-        <h2>Get In Touch!</h2>
-
-        <p>
-        Send me an <a href="mailto:pattuga@gmail.com?Subject=Hello,%20Patrick!">email</a> .
-        </p>
-
         <p class="copyright">
           <!-- &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. -->
-          This site as a Jekyll template and it's licensed MIT. <br /> You're welcome to <a href="https://github.com/jamigibbs/portfolio">use it</a>!
+          This site as a Jekyll template and it's licensed MIT. <br /> You're welcome to <a href="https://github.com/jamigibbs/portfolio">use
+            it</a>!
         </p>
+
       </footer>
 
     </div>
 
     <div class="large-2 large-offset-1 columns social">
       <ul>
-        <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/{{ site.linkedin }}"><i class="fas fa-scroll"></i></a></li>
+        <li><a href="mailto:pattuga@gmail.com?Subject=Hello,%20Patrick!"><i class=" fa fa-envelope"></i></a></li>
+        <li><a href="{{ site.baseurl }}/public/cv.pdf"><i class="fas fa-scroll"></i></a></li>
+        <li><a href="https://github.com/{{ site.github }}"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/{{ site.linkedin }}"><i class="fab fa-linkedin-in"></i></a></li>
       </ul>
     </div>
 
   </div>
 
-    {% if site.google_analytics %}
-     <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-       ga('create', '{{ site.google_analytics }}', 'auto');
-       ga('send', 'pageview');
-     </script>
-    {% endif %}
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
 
-  </body>
+</body>
+
 </html>
