@@ -27,14 +27,23 @@
         </p>
         <p>
         I'm currently a graduate student at <a href="https://www.lti.cs.cmu.edu/">Carnegie Mellon University</a> and <a href="https://fenix.tecnico.ulisboa.pt/departamentos/deec">Instituto Superior Técnico</a>, supervised by Graham Neubig and André Martins.
+        </p>
+        <p>
           I'm interested in learning with structured data and its applications to natural language processing and source code analysis.
         </p>
+
         <p>
           Previously I did my masters at the <a href="https://www.cst.cam.ac.uk/admissions/acs">University of Cambridge</a> and my undergrad at <a href="https://fenix.tecnico.ulisboa.pt/cursos/leic-a">Instituto Superior Técnico</a>.
         </p>
       </div>
 
       <main>
+        <h3>News</h3>
+        <ul class=news>
+        {% for news in site.data.news limit:4 %}
+          <li> <b>{{ news.date }}:</b> {{ news.title }}</li>
+        {% endfor %}
+        </ul>
         <h3>Publications</h3>
         {% for pub in site.data.publications %}
         <p>
