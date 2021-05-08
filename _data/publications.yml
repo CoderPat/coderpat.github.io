@@ -1,11 +1,11 @@
-- title: Measuring and Increasing Context Usage in Context-Aware Machine Translation
-  author: P. Fernandes, K. Yin, G. Neubig, A. Martins
+- title: "Measuring and Increasing Context Usage in\n Context-Aware Machine Translation"
+  authors: P. Fernandes, K. Yin, G. Neubig, A. Martins
   publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
   link: https://2021.aclweb.org/
   
 - title: Do Context-Aware Translation Models Pay the Right Attention?
-  author: K. Yin, P. Fernandes, D. Pruthi, A. Chaudhary, A. Martins, G. Neubig
-  published: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
+  authors: K. Yin, P. Fernandes, D. Pruthi, A. Chaudhary, A. Martins, G. Neubig
+  publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
   link: https://2021.aclweb.org/
 
 - title: Structured Neural Summarization
