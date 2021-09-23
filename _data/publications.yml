@@ -1,14 +1,19 @@
+- title: "When Does Translation Require Context? A Data-driven, Multilingual Exploration"
+  authors: K. Yin*, <u>P. Fernandes*</u>, A. Martins, G. Neubig
+  publisher: arXiv Preprint
+  link: https://arxiv.org/abs/2109.07446
+
 - title: "Measuring and Increasing Context Usage in\n Context-Aware Machine Translation"
-  authors: P. Fernandes, K. Yin, G. Neubig, A. Martins
+  authors: <u>P. Fernandes</u>, K. Yin, G. Neubig, A. Martins
   publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
-  link: https://2021.aclweb.org/
+  link: https://aclanthology.org/2021.acl-long.505/
   
 - title: Do Context-Aware Translation Models Pay the Right Attention?
-  authors: K. Yin, P. Fernandes, D. Pruthi, A. Chaudhary, A. Martins, G. Neubig
+  authors: K. Yin, <u>P. Fernandes</u>, D. Pruthi, A. Chaudhary, A. Martins, G. Neubig
   publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
-  link: https://2021.aclweb.org/
+  link: https://aclanthology.org/2021.acl-long.65/
 
 - title: Structured Neural Summarization
-  authors: P. Fernandes, M. Allamanis, M. Brockschmidt. 
+  authors: <u>P. Fernandes</u>, M. Allamanis, M. Brockschmidt. 
   publisher: 7th International Conference on Learning Representations (ICLR) 
   link: https://arxiv.org/abs/1811.01824
