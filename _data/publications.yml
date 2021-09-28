@@ -1,3 +1,8 @@
+- title: "Predicting Attention Sparsity in Transformers"
+  authors: M. Treviso, A. Góis, <u>P. Fernandes</u>, E. Fonseca, A. Martins
+  publisher: arXiv Preprint
+  link: https://arxiv.org/abs/2109.12188
+
 - title: "When Does Translation Require Context? A Data-driven, Multilingual Exploration"
   authors: K. Yin*, <u>P. Fernandes*</u>, A. Martins, G. Neubig
   publisher: arXiv Preprint
