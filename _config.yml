@@ -30,6 +30,5 @@ github:              coderpat
 linkedin:            patrick-fernandes-387266137
 
 # Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+gems: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate]

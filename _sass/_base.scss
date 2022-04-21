@@ -103,12 +103,22 @@ ul {
 }
 
 .project-post {
-  h3, p {
+  h3 {
     font-size: 14px;
   }
   p {
+    font-size: 14px;
     color: #8e8e8e;
   }
+}
+
+.post-preview-image {
+  float: left;
+  width: 200px;
+  height: 120px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+  margin-right: 20px
 }
 
 .content-section p {

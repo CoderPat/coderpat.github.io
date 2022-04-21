@@ -1,6 +1,21 @@
+- title: "Learning to Scaffold: Optimizing Model Explanations for Teaching"
+  authors: <u>P. Fernandes*</u>, M. Treviso*, Danish Pruthi, A. Martins, G. Neubig
+  publisher: arXiv Preprint
+  link: public/publications/fernandes22scaffold.pdf
+
+- title: "Quality-Aware Decoding for Neural Machine Translation"
+  authors: <u>P. Fernandes*</u>, A. Farinhas*, R. Rei, José. Souza, P. Ogayo, A. Martins, G. Neubig, A. Martins
+  publisher: 2022 Meeting of the North American Chapter of the Association for Computational Linguistics (NAACL 2022)
+  link: ""
+
+- title: "CMU's IWSLT 2022 Dialect Speech Translation System"
+  authors: B. Yan, <u>P. Fernandes</u>, S. Dalmia, J. Shi, Y. Peng, D. Berrebbi, X. Wang, G. Neubig, S. Watanabe
+  publisher: 19th International Conference on Spoken Language Translation (IWSLT) @ ACL 2022
+  link: ""
+
 - title: "Predicting Attention Sparsity in Transformers"
   authors: M. Treviso, A. Góis, <u>P. Fernandes</u>, E. Fonseca, A. Martins
-  publisher: arXiv Preprint
+  publisher: 6th Workshop on Structured Prediction for NLP @ ACL 2022
   link: https://arxiv.org/abs/2109.12188
 
 - title: "When Does Translation Require Context? A Data-driven, Multilingual Exploration"
