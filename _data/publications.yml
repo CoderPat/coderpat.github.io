@@ -1,6 +1,11 @@
+- title: "A Multi-dimensional Evaluation of Tokenizer-free Multilingual Pretrained Models"
+  authors: J. Sun, <u>P. Fernandes</u>, X. Wang, G. Neubig
+  publisher: arXiv Preprint
+  link: https://arxiv.org/abs/2210.07111
+
 - title: "Learning to Scaffold: Optimizing Model Explanations for Teaching"
   authors: <u>P. Fernandes*</u>, M. Treviso*, Danish Pruthi, A. Martins, G. Neubig
-  publisher: arXiv Preprint
+  publisher: 36th Conference on Neural Information Processing Systems
   link: https://arxiv.org/abs/2204.10810
 
 - title: "Quality-Aware Decoding for Neural Machine Translation"
