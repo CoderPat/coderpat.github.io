@@ -1,6 +1,11 @@
+- title: "Findings of the WMT 2022 Shared Task on Chat Translation"
+  authors: A. Farinha, M. A. Farajian, M. Buchicchio, <u>P. Fernandes</u>, J. Souza, H. Moniz, A. Martins
+  publisher: Proceedings of the Seventh Conference on Machine Translation (WMT 2022)
+  link: https://aclanthology.org/2022.wmt-1.70/
+
 - title: "A Multi-dimensional Evaluation of Tokenizer-free Multilingual Pretrained Models"
   authors: J. Sun, <u>P. Fernandes</u>, X. Wang, G. Neubig
-  publisher: arXiv Preprint
+  publisher: Findings of 17th Conference of the European Chapter of the Association for Computational Linguistics (Findings EACL 2023)
   link: https://arxiv.org/abs/2210.07111
 
 - title: "Learning to Scaffold: Optimizing Model Explanations for Teaching"
