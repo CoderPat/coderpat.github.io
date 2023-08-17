@@ -1,3 +1,33 @@
+- title: "Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation"
+  authors: <u>P. Fernandes*</u>, A. Madaan, E. Liu, A. Farinhas, P. Martins, A. Bertsch, J. Souza, S. Zhou, T. Wu, G. Neubig, A. Martins
+  publisher: arXiv Preprint
+  link: https://arxiv.org/abs/2305.00955
+
+- title: "When Does Translation Require Context? A Data-driven, Multilingual Exploration"
+  authors: K. Yin*, <u>P. Fernandes*</u>, E. Liu, A. Martins, G. Neubig
+  publisher: 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)
+  link: https://arxiv.org/abs/2109.07446
+
+- title: "Scaling Laws for Multilingual Neural Machine Translation"
+  authors: <u>P. Fernandes*</u>, B. Ghorbani, X. Garcia, M. Freitag, O. Firat
+  publisher: arXiv Preprint
+  link: https://arxiv.org/abs/2302.09650
+
+- title: "ESPnet-ST-v2: Multipurpose Spoken Language Translation Toolkit"
+  authors:  B. Yan, J. Shi, Y. Tang, H. Inaguma, Y. Peng, S. Dalmia, P. Polák, <u>P. Fernandes</u>, D. Berrebbi, T. Hayashi, X. Zhang, Z. Ni, M. Hira, S. Maiti, J. Pino, S. Watanabe
+  publisher: 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)
+  link: https://arxiv.org/abs/2304.04596
+
+- title: "Multi-Dimensional Evaluation of Text Summarization with In-Context Learning"
+  authors: S. Jain, V. Keshava, S. M. Sathyendra, <u>P. Fernandes</u>, P. Liu, G. Neubig, C. Zhou
+  publisher: Findings of The 61st Annual Meeting of the Association for Computational Linguistics (Findings ACL 2023)
+  link: https://arxiv.org/abs/2306.01200
+
+- title: "Epsilon Sampling Rocks: Investigating Sampling Strategies for Minimum Bayes Risk Decoding for Machine Translation"
+  authors: M. Freitag, B. Ghorbani, <u>P. Fernandes</u>
+  publisher: arXiv Preprint
+  link: https://arxiv.org/abs/2305.09860
+
 - title: "Findings of the WMT 2022 Shared Task on Chat Translation"
   authors: A. Farinha, M. A. Farajian, M. Buchicchio, <u>P. Fernandes</u>, J. Souza, H. Moniz, A. Martins
   publisher: Proceedings of the Seventh Conference on Machine Translation (WMT 2022)
@@ -10,7 +40,7 @@
 
 - title: "Learning to Scaffold: Optimizing Model Explanations for Teaching"
   authors: <u>P. Fernandes*</u>, M. Treviso*, Danish Pruthi, A. Martins, G. Neubig
-  publisher: 36th Conference on Neural Information Processing Systems
+  publisher: 36th Conference on Neural Information Processing Systems (NeurIPS 2022)
   link: https://arxiv.org/abs/2204.10810
 
 - title: "Quality-Aware Decoding for Neural Machine Translation"
@@ -28,11 +58,6 @@
   publisher: 6th Workshop on Structured Prediction for NLP @ ACL 2022
   link: https://arxiv.org/abs/2109.12188
 
-- title: "When Does Translation Require Context? A Data-driven, Multilingual Exploration"
-  authors: K. Yin*, <u>P. Fernandes*</u>, A. Martins, G. Neubig
-  publisher: arXiv Preprint
-  link: https://arxiv.org/abs/2109.07446
-
 - title: "Measuring and Increasing Context Usage in\n Context-Aware Machine Translation"
   authors: <u>P. Fernandes</u>, K. Yin, G. Neubig, A. Martins
   publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
@@ -40,10 +65,10 @@
   
 - title: Do Context-Aware Translation Models Pay the Right Attention?
   authors: K. Yin, <u>P. Fernandes</u>, D. Pruthi, A. Chaudhary, A. Martins, G. Neubig
-  publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL)
+  publisher: 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021)
   link: https://aclanthology.org/2021.acl-long.65/
 
 - title: Structured Neural Summarization
   authors: <u>P. Fernandes</u>, M. Allamanis, M. Brockschmidt. 
-  publisher: 7th International Conference on Learning Representations (ICLR) 
+  publisher: 7th International Conference on Learning Representations (ICLR 2019) 
   link: https://arxiv.org/abs/1811.01824
