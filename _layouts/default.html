@@ -68,6 +68,9 @@
           <strong>{{ pub.title }}</strong> <br />
           {{pub.authors}} <br />
           <i>{{pub.publisher}}</i><a href="{{pub.link}}"> <i class=" fa fa-file-pdf fa-fw"></i></a>
+          {% if pub.award %}
+          <span class="award-badge"> {{pub.award}} </span>
+          {% endif %}
         </p>
         {% endfor %}
       </main>
